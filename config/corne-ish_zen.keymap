@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 /*
-*/ {
+* {
 *    combos {
 *        compatible = "zmk,combos";
 *        combo_ctrl_alt_del {
