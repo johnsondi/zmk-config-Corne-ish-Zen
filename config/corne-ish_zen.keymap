@@ -15,7 +15,7 @@
         combo_ctrl-alt-del {
             timeout-ms = <50>;
             key-positions = <0 11 42>;
-            bindings = <&kp LC(LA(DEL));
+            bindings = <&kp LC(LA(DEL))>;
         };
     };
 };
