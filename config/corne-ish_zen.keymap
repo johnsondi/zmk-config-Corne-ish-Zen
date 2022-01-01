@@ -9,17 +9,18 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_ctrl_alt_del {
-            timeout-ms = <50>;
-            key-positions = <11 12 41>;
-            bindings = <&kp LC(LA(DEL))>;
-        };
-    };
-};
-
+/*
+*/ {
+*    combos {
+*        compatible = "zmk,combos";
+*        combo_ctrl_alt_del {
+*            timeout-ms = <50>;
+*            key-positions = <11 12 41>;
+*            bindings = <&kp LC(LA(DEL))>;
+*        };
+*    };
+*};
+*/
 / {
         keymap {
                 compatible = "zmk,keymap";
